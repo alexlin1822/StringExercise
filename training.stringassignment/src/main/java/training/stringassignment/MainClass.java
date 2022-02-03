@@ -53,6 +53,7 @@ public class MainClass {
 		System.out.println("Before : " + sbf);
 		  
 		sbf.insert(sbf.length()-1," 123");
+		sbf.append(" 3333");
 		System.out.println("After insert: " + sbf);
 	}
 
