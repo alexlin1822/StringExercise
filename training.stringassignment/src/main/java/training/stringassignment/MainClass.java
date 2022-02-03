@@ -47,13 +47,13 @@ public class MainClass {
 	}
 	
 	public static void CallStringBuffer() {
-	  //StringBuffer function
-	  //Add something
-      StringBuffer sbf = new StringBuffer("Dajun Alex Lin");
-      System.out.println("Before : " + sbf);
-      
-      sbf.insert(sbf.length()-1," 123");
-      System.out.println("After insert: " + sbf);
+		//StringBuffer function
+		//Add something
+		StringBuffer sbf = new StringBuffer("Dajun Alex Lin");
+		System.out.println("Before : " + sbf);
+		  
+		sbf.insert(sbf.length()-1," 123");
+		System.out.println("After insert: " + sbf);
 	}
 
 }
